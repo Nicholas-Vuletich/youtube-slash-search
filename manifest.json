@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Slash Search",
+  "version": "1.0",
+  "permissions": ["scripting"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
